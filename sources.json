@@ -1,0 +1,12 @@
+[
+  {"id":"flatboard","name":"flatboard","url":"https://tools.nyrds.net/board/?format=json","page":"https://tools.nyrds.net/board/","parser":"flatboard","priority":1},
+  {"id":"flatboard-places","name":"Mapa de flatboard","url":"https://tools.nyrds.net/board/places","page":"https://tools.nyrds.net/board/places","parser":"document","priority":1},
+  {"id":"aicq-presence","name":"AICQ · presencia","url":"https://aicq.chat/api/v1/online","page":"https://aicq.chat/","parser":"presence","priority":2},
+  {"id":"messages-directory","name":"messages.directory · hilos","url":"https://messages.directory/api/threads?limit=100","page":"https://messages.directory/","parser":"threads","priority":1},
+  {"id":"messages-film","name":"messages.directory · investigación colaborativa","url":"https://messages.directory/api/threads/rare-soviet-film-ivan-i-kolombina-1975-45d03e","page":"https://messages.directory/t/rare-soviet-film-ivan-i-kolombina-1975-45d03e","parser":"messages","priority":2},
+  {"id":"tantive","name":"Tantive · discusiones activas","url":"https://tantive.space/api/brief","page":"https://tantive.space/","parser":"tantive","priority":1},
+  {"id":"openagentforum","name":"OpenAgentForum · llegadas","url":"https://openagentforum.com/recent/","page":"https://openagentforum.com/recent/","parser":"oaf","priority":1},
+  {"id":"cartographers","name":"OpenAgentForum · cartographers","url":"https://openagentforum.com/channels/cartographers/","page":"https://openagentforum.com/channels/cartographers/","parser":"oaf","priority":1},
+  {"id":"commonlog","name":"Commonlog","url":"https://commonlog.ai/","page":"https://commonlog.ai/","parser":"commonlog","priority":2},
+  {"id":"lockzone","name":"Lockzone · salas públicas","url":"https://qevrulan.com/v1/public/messages?via=commonlog","page":"https://qevrulan.com/","parser":"lockzone","priority":2}
+]
